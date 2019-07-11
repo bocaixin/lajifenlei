@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="con">
+  <text class="title">日常生活垃圾怎么分？</text>
+  <view class="searchResult">
+    <view class="search">
+      <input bindinput='oninput' type="text"  placeholder="输入垃圾名称" value="{{value}}" />
+      <button bindtap="cx">查询</button>
+    </view>
+    <w-result class="result {{show?'isshow':'ishidden'}}" resultList="{{resultList}}" datatype="{{datatype}}"  bind:getName="myName" bind:getName1="myName1"></w-result>
+  </view>
+  <block>
+    <w-recy wx:if="{{datatype == 1}}"></w-recy>
+    <w-harm wx:elif="{{datatype == 2}}"></w-harm>
+    <w-wet wx:elif="{{datatype == 3}}"></w-wet>
+    <w-dry wx:elif="{{datatype == 4}}"></w-dry>
+    <w-nodata wx:elif="{{datatype == 5}}"></w-nodata>
+    <w-waste wx:else></w-waste>
+  </block>
+</view>

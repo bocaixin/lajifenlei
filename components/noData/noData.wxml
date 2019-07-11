@@ -1,0 +1,5 @@
+<!--components/noData/noData.wxml-->
+<view class="noData">
+  <text class="title">未查到所属分类，以下内容供您参考</text>
+  <image src="/images/sort.jpg" />
+</view>

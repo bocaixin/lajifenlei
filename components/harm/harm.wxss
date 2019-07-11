@@ -1,0 +1,89 @@
+/* components/harm/harm.wxss */
+.recy{
+  color:#ea3e30;
+  display:flex;
+  flex-direction:column;
+  width:80%;
+  margin:0 10%;
+  box-sizing:border-box;
+}
+.recy .title{
+  font-size:24px;
+  height:50px;
+  line-height:50px;
+  text-align:center;
+}
+.recy-text{
+  width:100%;
+  padding:20rpx 0;
+  box-sizing:border-box;
+  border:1px dashed #ea3e30;
+  border-radius:40rpx;
+  margin-bottom:30rpx;
+}
+.detail{
+  width:100%;
+  padding:0 5%;
+  box-sizing:border-box;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+.detail image{
+  width:160rpx;
+  height:160rpx;
+}
+.detail view{
+  flex:1;
+  margin-left:60rpx;
+}
+.detail view text{
+  font-size:16px;
+  line-height:25px;
+  font-weight:bold;
+}
+.include,.ask{
+  width:100%;
+  display:flex;
+  margin:25rpx 0;
+  flex-direction: column;
+}
+.include rich-text{
+  padding:0 5%;
+  box-sizing:border-box;
+  margin:20rpx 0;
+  font-size:16px;
+  line-height:25px;
+}
+.sm-title{
+  width:100%;
+  background:#ea3e30;
+  color:#fff;
+  height:35px;
+  line-height:35px;
+  font-size:16px;
+  text-align:center;
+}
+.ask{
+  margin-bottom:0;
+}
+.ask-text{
+  display:flex;
+  flex-direction:column;
+  justify-content:start;
+  padding:0 5%;
+  box-sizing:border-box;
+  margin:20rpx 0;
+}
+.ask-text>text{
+  font-size:16px;
+  line-height:28px;
+}
+.ask-text text text{
+  display:inline-block;
+  width:20rpx;
+  height:20rpx;
+  background:#ea3e30;
+  border-radius:50%;
+  margin-right:20rpx;
+}

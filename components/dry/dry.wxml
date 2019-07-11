@@ -1,0 +1,31 @@
+<!--components/dry/dry.wxml-->
+<view class="recy">
+  <text class="title">干垃圾</text>
+
+  <view class="recy-text">
+    <view class="detail">
+      <image src="/images/dry.png"/>
+      <view>
+        <text>干垃圾是指：</text>
+        <rich-text>除有害垃圾、可回收物、湿垃圾以外的其他生活废弃物</rich-text>
+      </view>
+    </view>
+
+    <view class="include">
+      <text class="sm-title">干垃圾主要包括</text>
+      <rich-text>
+        餐盒、餐巾纸、湿纸巾、卫生间用纸、塑料袋、食品包装袋、污染严重的纸、烟蒂、纸尿裤、一次性杯子、大骨头、贝壳、花盆、陶瓷等
+      </rich-text>
+    </view>
+
+    <view class="ask">
+      <text class="sm-title">干垃圾投放要求</text>
+      <view class="ask-text">
+        <text><text/>尽量沥干水分</text>
+        <text><text/>难以辨识类别的生活垃圾投入干垃圾容器内</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+

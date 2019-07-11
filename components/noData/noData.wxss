@@ -1,0 +1,17 @@
+/* components/noData/noData.wxss */
+.noData{
+  width:100%;
+  padding:0 10%;
+  box-sizing:border-box;
+}
+.title{
+  color:#333;
+  font-size:20px;
+  line-height:35px;
+  font-weight:bold;
+  text-align:center;
+}
+.noData image{
+  width:100%;
+  height:800rpx;
+}

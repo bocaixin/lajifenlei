@@ -1,0 +1,30 @@
+<!--components/harm/harm.wxml-->
+<view class="recy">
+  <text class="title">有害垃圾</text>
+
+  <view class="recy-text">
+    <view class="detail">
+      <image src="/images/harmful.png"/>
+      <view>
+        <text>有害垃圾是指：</text>
+        <rich-text>对人体健康或自然环境造成直接或潜在危害的废弃物</rich-text>
+      </view>
+    </view>
+
+    <view class="include">
+      <text class="sm-title">有害垃圾主要包括</text>
+      <rich-text>
+        废电池、油漆桶、荧光灯管、废药品及其包装物等
+      </rich-text>
+    </view>
+
+    <view class="ask">
+      <text class="sm-title">有害垃圾投放要求</text>
+      <view class="ask-text">
+        <text><text/>投放时请注意轻放</text>
+        <text><text/>易破损的请连带包装或包裹后轻放</text>
+        <text><text/>如易挥发，请密封后投放</text>
+      </view>
+    </view>
+  </view>
+</view>

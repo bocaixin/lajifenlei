@@ -1,0 +1,32 @@
+<!--components/recyclable/recyclable.wxml-->
+<view class="recy">
+  <text class="title">可回收物</text>
+
+  <view class="recy-text">
+    <view class="detail">
+      <image src="/images/recyclable.png"/>
+      <view>
+        <text>可回收物是指：</text>
+        <rich-text>适宜回收利用和资源化利用的，如：玻、金、塑、纸、衣</rich-text>
+      </view>
+    </view>
+
+    <view class="include">
+      <text class="sm-title">可回收物主要包括</text>
+      <rich-text>
+        酱油瓶、玻璃杯、平板玻璃、易拉罐、饮料瓶、洗发水瓶、塑料玩具、书本、报纸、广告单、纸板箱、衣服、床上用品等
+      </rich-text>
+    </view>
+
+    <view class="ask">
+      <text class="sm-title">可回收物投放要求</text>
+      <view class="ask-text">
+        <text><text/>轻投轻放</text>
+        <text><text/>清洁干燥, 避免污染</text>
+        <text><text/>废纸尽量平整</text>
+        <text><text/>立体包装物请清空内容物, 清洁后压扁投放</text>
+        <text><text/>有尖锐边角的, 应包裹后投放</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "w-result":"/components/result/result",
+    "w-waste": "/components/waste/list",
+    "w-recy":"/components/recyclable/recyclable",
+    "w-harm": "/components/harm/harm",
+    "w-wet": "/components/wet/wet",
+    "w-dry": "/components/dry/dry",
+    "w-nodata": "/components/noData/noData"
+  }
+}

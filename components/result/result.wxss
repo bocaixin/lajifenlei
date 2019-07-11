@@ -1,0 +1,17 @@
+/* components/result/result.wxss */
+.result{
+  width:80%;
+  border-radius:15rpx;
+  height:300rpx;
+  border:1px solid #2678bf;
+  margin:0 10%;
+  
+}
+.result text{
+  line-height:100rpx;
+  height:100rpx;
+  text-align:center;
+  color:#333;
+  font-size:16px;
+  display:block;
+}

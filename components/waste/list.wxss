@@ -1,0 +1,49 @@
+/* components/list/list.wxss */
+.list{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  height:140rpx;
+  padding:0 10%;
+  box-sizing:border-box;
+  margin:60rpx 0;
+}
+.list image{
+  height:auto;
+  flex:1;
+  margin:0 10rpx;
+}
+.list image:nth-child(1){
+  margin-left:0;
+}
+.list image:nth-child(4){
+  margin-right:0;
+}
+.text{
+  display:block;
+  width:80%;
+  margin:30rpx 10%;
+  box-sizing:border-box;
+  overflow:hidden;
+  color:#333;
+  font-size:17px;
+  line-height:60rpx;
+  text-indent:34px;
+}
+.text text{
+  font-size:20px;
+  margin:0 5rpx;
+  font-weight:bold;
+}
+.text .dry{
+  color:#2e2c2a;
+}
+.text .recy{
+  color:#215287;
+}
+.text .wet{
+  color:#62423a;
+}
+.text .harmful{
+  color:#ea3e30;
+}

@@ -1,0 +1,4 @@
+<!--components/result/result.wxml-->
+<view class="result">
+  <text wx:for="{{resultList}}" wx:key="index" bindtap="search" data-sec="{{item}}" style="display:{{resultList.length==0?'none':'block'}}">{{item}}</text>
+</view>

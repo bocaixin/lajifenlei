@@ -1,0 +1,5 @@
+<!--pages/reward/reward.wxml-->
+<view class="reward">
+  <image  bindtap="previewImage"  src='{{imgalist[0]}}' data-src='{{imgalist[0]}}'/>
+  <text>长按打赏码打赏</text>
+</view>

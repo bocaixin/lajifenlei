@@ -1,0 +1,30 @@
+<!--components/wet/wet.wxml-->
+<view class="recy">
+  <text class="title">湿垃圾</text>
+
+  <view class="recy-text">
+    <view class="detail">
+      <image src="/images/wet.png"/>
+      <view>
+        <text>湿垃圾是指：</text>
+        <rich-text>日常生活垃圾产生的容易腐烂的生物质废弃物</rich-text>
+      </view>
+    </view>
+
+    <view class="include">
+      <text class="sm-title">湿垃圾主要包括</text>
+      <rich-text>
+        剩菜剩饭、瓜皮果核、花卉绿植、过期食品等
+      </rich-text>
+    </view>
+
+    <view class="ask">
+      <text class="sm-title">湿垃圾投放要求</text>
+      <view class="ask-text">
+        <text><text/>纯流质的食物垃圾，如牛奶等，应直接倒进下水口</text>
+        <text><text/>有包装物的湿垃圾应将包装物去除后分类投放，包装物请投放到对应的可回收物或干垃圾容器</text>
+      </view>
+    </view>
+  </view>
+</view>
+
