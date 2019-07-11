@@ -4,4 +4,6 @@
 
 在微信中扫描下面的二维码即可体验
 
-![赞赏](images/wxapp.jpg)
+![小程序码](images/wxapp.jpg)
+
+可加QQ群816801954交流
