@@ -4,4 +4,4 @@
 
 在微信中扫描下面的二维码即可体验
 
-![赞赏](images/reward.jpg)
+![赞赏](images/wxapp.jpg)
